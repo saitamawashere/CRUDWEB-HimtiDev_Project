@@ -1,0 +1,29 @@
+//Reading
+GET http://localhost:5000/users
+###
+//Searching
+GET http://localhost:5000/users/2
+###
+//Creating
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Farychenko",
+    "email" : "farchenko@gmail.com",
+    "gender" : "Male"
+}
+###
+//Updating
+PATCH http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+    "name": "Saitama",
+    "email" : "saitama@gmail.com",
+    "gender" : "Male"
+}
+
+###
+//Deleting
+DELETE http://localhost:5000/users/4

@@ -1,0 +1,31 @@
+{
+  "name": "himtidevweb-task",
+  "version": "1.0.0",
+  "description": "TUGAS HIMTI DEV WEB ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saitamawashere/CRUDWEB-HimtiDev_Project.git"
+  },
+  "keywords": [
+    "crud",
+    "web",
+    "fullstack"
+  ],
+  "author": "saitama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saitamawashere/CRUDWEB-HimtiDev_Project/issues"
+  },
+  "homepage": "https://github.com/saitamawashere/CRUDWEB-HimtiDev_Project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  }
+}
